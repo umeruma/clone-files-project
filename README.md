@@ -1,13 +1,13 @@
-# GDrive Files Project
+# Clone Files Project
 
-Google Drive からローカルにファイルコピーするプロジェクト
+Google Drive などからローカルにファイルコピーするプロジェクト
 
 ## ユースケース
 - ミーティングの文字起こしファイル（`.txt`）を Google Drive からローカルにダウンロードして、LLMの参照元フォルダとして利用する。
 
 ## 使い方
 
-[リリースページ](https://github.com/umeruma/gdrive-files-project/releases)から最新版をダウンロードして、ローカルで展開
+[リリースページ](https://github.com/umeruma/clone-files-project/releases)から最新版をダウンロードして、ローカルで展開
 
 後述のツールセットアップを済ませた上で、以下のコマンドを実行
 
