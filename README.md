@@ -7,7 +7,9 @@ Google Drive からローカルにファイルコピーするプロジェクト
 
 ## 使い方
 
-`.env` ファイルに `GDRIVE_FOLDER_ID` を指定した上で、以下のコマンドを実行
+[リリースページ](https://github.com/umeruma/gdrive-files-project/releases)から最新版をダウンロードして、ローカルで展開
+
+後述のツールセットアップを済ませた上で、以下のコマンドを実行
 
 ```bash
 # mise.toml の LOCAL_DEST に指定されているフォルダにファイルをダウンロード
@@ -17,7 +19,7 @@ mise run download
 mise run open
 ```
 
-## セットアップ
+## ツールセットアップ
 
 必要なツール
 
