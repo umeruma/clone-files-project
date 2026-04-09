@@ -1,0 +1,12 @@
+[env]
+_.file = ".env"
+RCLONE_REMOTE = "drive-work"
+LOCAL_DEST = "./transcripts"
+
+[tasks.download]
+description = "Google Driveからファイルをコピーする"
+run = "rclone copy --drive-root-folder-id=\"$GDRIVE_FOLDER_ID\" \"$RCLONE_REMOTE\": \"$LOCAL_DEST\" -v --progress"
+
+[tasks.open]
+description = "Google DriveフォルダをブラウザでOpen"
+run = "open \"https://drive.google.com/drive/folders/$GDRIVE_FOLDER_ID\""
