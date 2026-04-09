@@ -28,17 +28,21 @@ mise run open
 
 [公式ドキュメント](https://mise.jdx.dev/)を参考にインストール
 
-### 2. rclone をインストール、リモートドライブに利用しているGoogle Driveを設定
+### 2. rclone をインストール、Google Drive を追加
+
+docs: https://rclone.org/install/
 
 ```
 brew install rclone
 ```
 
-もしくは、[公式ドキュメント](https://rclone.org/install/)を参考にインストール。
+#### rcloneへのドライブ追加
 
-Google Drive をremoteドライブ `drive-work` として設定（mise.tomlの `RCLONE_REMOTE` に対応していれば別名でも問題ない）
+docs: https://rclone.org/drive/
 
-注意: rcloneの公式ドキュメント [Making your own client_id](https://rclone.org/drive/#making-your-own-client-id) にある通り、自分で client_id と client_secret を用意するのがベスト
+rcloneのドキュメント ["Making your own client_id"](https://rclone.org/drive/#making-your-own-client-id) にある通り、自分で client_id と client_secret を用意するのがベスト
+
+名前は `drive-work` とする。（mise.tomlの `RCLONE_REMOTE` に対応していれば別名でも問題ない）
 
 ### 3. .env ファイルの準備
 
