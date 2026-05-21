@@ -48,8 +48,6 @@ rcloneのドキュメント ["Making your own client_id"](https://rclone.org/dri
 
 ### 3. .env ファイルの準備
 
-[1PasswordのEnvironments機能](https://developer.1password.com/docs/environments/)を利用するのがオススメ
-
 mise.toml と同じディレクトリに `.env` ファイルを作成、以下の環境変数を追加
 
 ```
